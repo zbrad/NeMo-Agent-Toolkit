@@ -8,6 +8,9 @@
 functions:
   current_datetime:
     _type: current_datetime
+  save_project_note:
+    _type: save_project_note
+    store_root: "~/nemo-project-store"
 
 llms:
   super_llm:
@@ -18,7 +21,7 @@ llms:
 
 workflow:
   _type: react_agent
-  tool_names: [current_datetime]
+  tool_names: [current_datetime, save_project_note]
   llm_name: super_llm
   verbose: true
   parse_agent_response_max_retries: 3
