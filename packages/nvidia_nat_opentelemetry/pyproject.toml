@@ -32,7 +32,7 @@ root = "../.."
 [project]
 name = "nvidia-nat-opentelemetry"
 dynamic = ["version", "dependencies", "optional-dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.11,<3.15"
 description = "Subpackage for OpenTelemetry integration in NeMo Agent Toolkit"
 readme = "src/nat/meta/pypi.md"
 keywords = ["ai", "observability", "opentelemetry"]

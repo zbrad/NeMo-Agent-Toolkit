@@ -32,7 +32,7 @@ root = "../.."
 [project]
 name = "nvidia-nat-eval"
 dynamic = ["version", "dependencies", "optional-dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.11,<3.15"
 description = "Subpackage for evaluation in NVIDIA NeMo Agent Toolkit"
 readme = "src/nat/meta/pypi.md"
 keywords = ["ai", "rag", "agents", "evaluation"]
