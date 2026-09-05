@@ -36,7 +36,7 @@ name = "nat_a365_example"
 version = "0.1.0"
 description = "Minimal NAT app for Agent 365 worker example"
 readme = "README.md"
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 dependencies = [
   "nvidia-nat[test]",
   "nvidia-nat-a365",

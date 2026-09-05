@@ -32,7 +32,7 @@ root = "../.."
 [project]
 name = "nvidia-nat-crewai"
 dynamic = ["version", "dependencies", "optional-dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 readme = "src/nat/meta/pypi.md"
 description = "Subpackage for CrewAI integration in NeMo Agent Toolkit"
 keywords = ["ai", "rag", "agents"]
@@ -41,9 +41,7 @@ authors = [{ name = "NVIDIA Corporation" }]
 maintainers = [{ name = "NVIDIA Corporation" }]
 classifiers = [
   "Programming Language :: Python",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3.12",
-  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
 ]
 
 [project.urls]

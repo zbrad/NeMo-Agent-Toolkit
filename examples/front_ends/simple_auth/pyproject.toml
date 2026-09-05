@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_simple_auth"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Custom NeMo Agent Toolkit workflow demonstrating auth"
 classifiers = ["Programming Language :: Python"]
 

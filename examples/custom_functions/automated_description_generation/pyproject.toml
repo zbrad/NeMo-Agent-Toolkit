@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_automated_description_generation"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Automated Description Generation NAT example"
 keywords = ["ai", "rag", "agents"]
 classifiers = ["Programming Language :: Python"]

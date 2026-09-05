@@ -29,7 +29,7 @@ where = ["src"]
 [project]
 name = "nat_dpo_tic_tac_toe"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "NeMo Agent Toolkit Example: DPO Preference Data Generation with Test Time Compute"
 classifiers = ["Programming Language :: Python"]
 

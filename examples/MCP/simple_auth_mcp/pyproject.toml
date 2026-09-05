@@ -27,7 +27,7 @@ packages = []
 [project]
 name = "nat_simple_auth_mcp"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Simple MCP authentication example"
 keywords = ["ai", "mcp", "protocol", "agents"]
 classifiers = ["Programming Language :: Python"]

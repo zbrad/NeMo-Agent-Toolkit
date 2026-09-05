@@ -22,18 +22,22 @@ requires = ["setuptools>=64", "setuptools-scm>=8", "setuptools_dynamic_dependenc
 git_describe_command = "git describe --long --first-parent"
 
 [project]
+# NOTE: requires-python below was bumped to a >=3.14 floor across every pyproject.toml in this repo
+# (root, packages/*, examples/**), but none of the uv.lock files have been regenerated to match -
+# they still declare `requires-python = ">=3.11,<3.14"` and carry resolution-marker forks for
+# 3.11/3.12/3.13. `uv sync` / `uv lock` will not work correctly against this floor yet. Until the
+# lockfiles are regenerated, install with `pip install .` / `pip install -e .` (per-package too),
+# not the `uv sync` / `uv pip install` flow documented in docs/source/get-started/installation.md.
 name = "nvidia-nat"
 dynamic = ["version", "dependencies", "optional-dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "NVIDIA NeMo Agent Toolkit"
 readme = "packages/nvidia_nat_core/src/nat/meta/pypi.md"
 license = { text = "Apache-2.0" }
 keywords = ["ai", "rag", "agents"]
 classifiers = [
   "Programming Language :: Python",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3.12",
-  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
 ]
 authors = [{ name = "NVIDIA Corporation" }]
 maintainers = [{ name = "NVIDIA Corporation" }]

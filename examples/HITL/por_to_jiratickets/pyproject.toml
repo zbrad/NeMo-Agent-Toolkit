@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_por_to_jiratickets"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Custom NeMo Agent Toolkit Workflow"
 classifiers = ["Programming Language :: Python"]
 

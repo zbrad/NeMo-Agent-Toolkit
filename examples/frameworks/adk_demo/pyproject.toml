@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_adk_demo"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Google ADK Example"
 keywords = ["ai", "agents", "tools", "adk"]
 classifiers = ["Programming Language :: Python"]

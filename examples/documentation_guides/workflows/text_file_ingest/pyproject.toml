@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "text_file_ingest"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Ingest data from text files"
 keywords = ["ai", "rag", "agents"]
 classifiers = ["Programming Language :: Python"]

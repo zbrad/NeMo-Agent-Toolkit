@@ -27,7 +27,7 @@ packages = []
 [project]
 name = "nat_simple_calculator_fastmcp_protected"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Protected Simple Calculator FastMCP - demonstrates OAuth2-protected NeMo Agent Toolkit FastMCP integration"
 keywords = ["ai", "mcp", "fastmcp", "agents", "oauth2", "keycloak"]
 classifiers = ["Programming Language :: Python"]

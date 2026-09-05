@@ -27,7 +27,7 @@ exclude = ["configs*", "notebook*", "tests*"]
 [project]
 name = "nat_simple_rag"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Simple NeMo Agent Toolkit Rag example"
 keywords = ["ai", "rag", "agents"]
 classifiers = ["Programming Language :: Python"]
