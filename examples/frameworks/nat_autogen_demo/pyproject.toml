@@ -28,7 +28,7 @@ where = ["src"]
 [project]
 name = "nat_autogen_demo"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "AutoGen Workflow Example"
 keywords = ["ai", "rag", "agents", "autogen", "multi-agent"]
 classifiers = ["Programming Language :: Python"]

@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_simple_calculator_observability"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Simple Calculator Observability - demonstrates NeMo Agent Toolkit observability and tracing capabilities"
 keywords = ["ai", "observability", "tracing", "agents"]
 classifiers = ["Programming Language :: Python"]

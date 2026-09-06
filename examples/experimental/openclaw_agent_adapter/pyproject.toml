@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_openclaw_agent_adapter"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Experimental OpenClaw CLI agent for the NeMo Agent Toolkit"
 keywords = ["ai", "agents", "coding-agents"]
 classifiers = ["Programming Language :: Python"]

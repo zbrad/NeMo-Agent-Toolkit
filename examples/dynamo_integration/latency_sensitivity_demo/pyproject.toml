@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_latency_sensitivity_demo"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Demonstrates automatic latency sensitivity inference with LangGraph"
 classifiers = ["Programming Language :: Python"]
 

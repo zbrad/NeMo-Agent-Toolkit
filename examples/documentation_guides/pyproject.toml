@@ -27,7 +27,7 @@ packages = []
 [project]
 name = "nat_documentation_guides"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Documentation guide workflows for the NeMo Agent Toolkit"
 classifiers = ["Programming Language :: Python"]
 
