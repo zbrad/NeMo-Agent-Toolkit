@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_math_assistant_a2a"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "A2A client example demonstrating NAT-to-NAT integration with hybrid tool composition"
 keywords = ["ai", "a2a", "protocol", "agents", "calculator", "mcp"]
 classifiers = ["Programming Language :: Python"]

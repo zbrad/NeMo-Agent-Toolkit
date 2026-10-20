@@ -27,7 +27,7 @@ packages = []
 [project]
 name = "nat_simple_calculator_mcp_protected"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Protected Simple Calculator MCP - demonstrates OAuth2-protected NeMo Agent Toolkit Model Context Protocol integration"
 keywords = ["ai", "mcp", "protocol", "agents", "oauth2", "keycloak"]
 classifiers = ["Programming Language :: Python"]

@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_per_user_workflow"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Per-User Workflow NeMo Agent Toolkit example"
 classifiers = ["Programming Language :: Python"]
 

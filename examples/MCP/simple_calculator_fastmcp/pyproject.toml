@@ -27,7 +27,7 @@ packages = []
 [project]
 name = "nat_simple_calculator_fastmcp"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Simple Calculator FastMCP - demonstrates NeMo Agent Toolkit FastMCP server integration"
 keywords = ["ai", "mcp", "fastmcp", "agents"]
 classifiers = ["Programming Language :: Python"]

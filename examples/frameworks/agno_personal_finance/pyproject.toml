@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_agno_personal_finance"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Custom NeMo Agent Toolkit Workflow using Agno for personal finance"
 classifiers = ["Programming Language :: Python"]
 

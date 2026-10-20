@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_semantic_kernel_demo"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Semantic Kernel Example"
 keywords = ["ai", "rag", "agents"]
 classifiers = ["Programming Language :: Python"]
@@ -35,7 +35,7 @@ classifiers = ["Programming Language :: Python"]
 [tool.setuptools_dynamic_dependencies]
 dependencies = [
   "nvidia-nat[langchain,mem0ai,semantic-kernel,test] == {version}",
-  "usearch==2.21.0",
+  "usearch~=2.21",
 ]
 
 [tool.uv.sources]

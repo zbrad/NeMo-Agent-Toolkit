@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_simple_calculator_hitl"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Simple Calculator Evaluation and Profiling - demonstrates NeMo Agent Toolkit evaluation capabilities"
 keywords = ["ai", "hitl", "human in the loop", "agents"]
 classifiers = ["Programming Language :: Python"]

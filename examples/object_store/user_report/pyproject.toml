@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_user_report"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "NeMo Agent Toolkit example that uses an Object Store"
 keywords = ["ai", "rag", "agents"]
 classifiers = ["Programming Language :: Python"]

@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_retail_agent"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Retail Agent NeMo Agent Toolkit example"
 keywords = ["ai", "agents", "retail"]
 classifiers = ["Programming Language :: Python"]

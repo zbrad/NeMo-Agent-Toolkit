@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_sequential_executor"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Sequential executor for NeMo Agent Toolkit"
 classifiers = ["Programming Language :: Python"]
 

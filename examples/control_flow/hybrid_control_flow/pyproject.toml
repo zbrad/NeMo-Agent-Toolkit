@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_hybrid_control_flow"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Hybrid Control Flow example for NeMo Agent Toolkit"
 classifiers = ["Programming Language :: Python"]
 

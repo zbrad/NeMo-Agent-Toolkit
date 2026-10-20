@@ -27,7 +27,7 @@ where = ["src"]
 [project]
 name = "nat_service_account_auth_mcp"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "MCP Service Account Authentication - demonstrates headless OAuth2 service account authentication for MCP servers"
 keywords = ["ai", "mcp", "authentication", "oauth2", "service-account"]
 classifiers = ["Programming Language :: Python"]

@@ -24,7 +24,7 @@ root = "../../.."
 [project]
 name = "nat_redis_example"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Simple Redis Example"
 keywords = ["ai", "mcp", "protocol", "agents", "oauth2", "keycloak"]
 classifiers = ["Programming Language :: Python"]

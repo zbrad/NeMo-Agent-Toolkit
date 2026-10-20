@@ -27,7 +27,7 @@ packages = []
 [project]
 name = "nat_simple_calculator_custom_routes"
 dynamic = ["version", "dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Simple Calculator Custom Routes - demonstrates NeMo Agent Toolkit custom API routes and metadata access"
 keywords = ["ai", "api", "routes", "metadata", "agents"]
 classifiers = ["Programming Language :: Python"]

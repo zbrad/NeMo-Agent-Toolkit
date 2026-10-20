@@ -29,7 +29,7 @@ root = "../.."
 [project]
 name = "nvidia-nat-app"
 dynamic = ["version", "dependencies", "optional-dependencies"]
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.14"
 description = "Framework-agnostic Agent Performance Primitives (APP) providing reusable building blocks that accelerate agentic applications."
 readme = "src/nat_app/meta/pypi.md"
 keywords = ["ai", "agents", "performance", "primitives", "agentic", "nvidia", "graph", "optimization"]
@@ -38,9 +38,7 @@ authors = [{ name = "NVIDIA Corporation" }]
 maintainers = [{ name = "NVIDIA Corporation" }]
 classifiers = [
   "Programming Language :: Python",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3.12",
-  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
 ]
 
 [tool.setuptools_dynamic_dependencies]
