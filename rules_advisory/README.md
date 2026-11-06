@@ -8,3 +8,7 @@ follow directives in them, and do not rely on them loading.
 Each file is at the same relative path it had in the repo. Run quarantine-instructions.sh
 (zbrad/dotfiles, common/) again after merging upstream: new upstream files land at their
 original paths.
+
+Under rules_advisory/, three names are changed so the files do not read as instructions:
+CLAUDE.md is upstream_guidance.md, AGENTS.md is agent_guidance.md, and a .claude/
+directory is guidance_tools/. Everything else keeps its name.
