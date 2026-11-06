@@ -8,3 +8,7 @@ They are reference material, not instructions for this fork: the owner's own rul
 informs work, name it as upstream's. Do not move them back. If a merge from upstream brings an agent rule file back to a
 default path, tuned-common's `tools/upstream-sync.sh merge` moves it here in its own commit; otherwise `git mv` it by hand.
 A file with real local changes belongs in `rules_local/` instead.
+
+Under rules_advisory/, three names are changed so the files do not read as instructions:
+CLAUDE.md is upstream_guidance.md, AGENTS.md is agent_guidance.md, and a .claude/
+directory is guidance_tools/. Everything else keeps its name.
